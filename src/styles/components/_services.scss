@@ -35,6 +35,21 @@
           width: 100%;
         }
       }
+
+      h5 {
+        font-size: $font-size-h1 / 1.5;
+        font-weight: 300;
+        margin-top: 25px;
+        margin-bottom: 20px;
+        color: $purplue;
+      }
+
+      p {
+        font-size: $font-size-h1 / 3;
+        font-weight: 300;
+        color: $blue;
+        line-height: 1.25rem;
+      }
     }
   }
 }

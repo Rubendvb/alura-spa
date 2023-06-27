@@ -75,4 +75,17 @@ nav ul li a:hover {
 }
 #services .cards .card .img-container img {
   width: 100%;
+}
+#services .cards .card h5 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  color: #ae00fb;
+}
+#services .cards .card p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #3e00ff;
+  line-height: 1.25rem;
 }/*# sourceMappingURL=styles.css.map */
