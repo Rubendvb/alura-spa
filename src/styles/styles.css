@@ -91,26 +91,26 @@ nav ul li a:hover {
 }
 
 #cupom {
-  background-color: #b5ffd9;
+  background-color: #170055;
   padding: 4rem;
   text-align: center;
   opacity: 0.6;
 }
 #cupom .text {
-  color: #ae00fb;
+  color: #b5ffd9;
 }
 #cupom .text h2 {
   font-size: 1.7647058824rem;
   margin: 2rem;
 }
-#cupom .input {
+#cupom .subscribe .input {
   margin: 0 auto;
   width: 575px;
   border-radius: 20px;
   border: 4px solid white;
   background-color: white;
 }
-#cupom .input input {
+#cupom .subscribe .input input {
   border-radius: 20px;
   height: 40px;
   border: none;
@@ -119,7 +119,28 @@ nav ul li a:hover {
   text-align: center;
   font-size: 26px;
 }
-#cupom .input:hover, #cupom .input:focus-within {
-  box-shadow: 1px 1px 8px 1px #ae00fb;
+#cupom .subscribe .input:hover, #cupom .subscribe .input:focus-within {
+  box-shadow: 1px 1px 8px 1px #b5ffd9;
   outline: none;
+}
+#cupom .subscribe button {
+  text-transform: uppercase;
+  margin-top: 0.75rem;
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  background-color: #ae00fb;
+  color: #b5ffd9;
+  letter-spacing: 1px;
+  font-family: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 2px solid #b5ffd9;
+  border-radius: 40px;
+}
+#cupom .subscribe button:hover {
+  color: #ae00fb;
+  background-color: #b5ffd9;
+  border: 2px solid #ae00fb;
 }/*# sourceMappingURL=styles.css.map */

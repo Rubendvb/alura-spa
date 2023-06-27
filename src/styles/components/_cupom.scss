@@ -1,13 +1,13 @@
 @import "../abstract/variables";
 
 #cupom {
-  background-color: $mint;
+  background-color: $navy;
   padding: 4rem;
   text-align: center;
   opacity: 0.6;
 
   .text {
-    color: $purplue;
+    color: $mint;
 
     h2 {
       font-size: $font-size-h1 / 1.7;
@@ -15,27 +15,52 @@
     }
   }
 
-  .input {
-    margin: 0 auto;
-    width: 575px;
-    border-radius: 20px;
-    border: 4px solid white;
-    background-color: white;
-
-    input {
+  .subscribe {
+    .input {
+      margin: 0 auto;
+      width: 575px;
       border-radius: 20px;
-      height: 40px;
-      border: none;
-      width: 540px;
-      outline: none;
-      text-align: center;
-      font-size: 26px;
+      border: 4px solid white;
+      background-color: white;
+
+      input {
+        border-radius: 20px;
+        height: 40px;
+        border: none;
+        width: 540px;
+        outline: none;
+        text-align: center;
+        font-size: 26px;
+      }
+
+      &:hover,
+      &:focus-within {
+        box-shadow: 1px 1px 8px 1px $mint;
+        outline: none;
+      }
     }
 
-    &:hover,
-    &:focus-within {
-      box-shadow: 1px 1px 8px 1px $purplue;
+    button {
+      text-transform: uppercase;
+      margin-top: 0.75rem;
       outline: none;
+      height: 40px;
+      text-align: center;
+      width: 130px;
+      background-color: $purplue;
+      color: $mint;
+      letter-spacing: 1px;
+      font-family: 12px;
+      font-weight: bold;
+      cursor: pointer;
+      border: 2px solid $mint;
+      border-radius: 40px;
+
+      &:hover {
+        color: $purplue;
+        background-color: $mint;
+        border: 2px solid $purplue;
+      }
     }
   }
 }
