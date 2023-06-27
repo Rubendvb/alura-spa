@@ -1,0 +1,17 @@
+@mixin bg-cores($lado, $cores...)
+  @if $lado == left
+    background: linear-gradient(to left, $cores)
+  @else
+    background: linear-gradient(to right, $cores)
+
+footer
+  text-align: center
+  font-size: $font-size-h1 / 2
+  border-top: 2px solid $navy
+  margin-top: 1rem
+  padding: 1.2rem
+
+  @include bg-cores("", $blue, $purplue, $mint, $navy)
+
+i
+  color: red
